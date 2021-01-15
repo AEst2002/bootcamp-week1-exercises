@@ -100,19 +100,20 @@ Assume that the data in the database is dynamic and changes every day so
 dont hard code solutions. */
 
 // Implement the function usersByPet to return a list of user objects filtered by cat or dog.
-const usersByPet = pet => {
-}
+const usersByPet = pet => database.users.filter(v => v.favPet === pet)
 console.log(usersByPet('dog'))
 console.log(usersByPet('cat'))
 
-// Implement the function collegeLookup to return the name and color of a user's college.
+// Implement the function collegeLookup to return a user's college.
 const collegeLookup = user => {
+  const collid = database.users.filter(v => v.firstName === user)[0].collegeId
+  return database.college.filter(v => v.id === collid)[0]
 }
 console.log(collegeLookup('Charles'))
 console.log(collegeLookup('Daniela'))
 
 // define oppositesAttract as a list of friend objects whose favorite pets are different.
-const oppositesAttract = _______
+const oppositesAttract = ______
 console.log(oppositesAttract)
 
 // define local as a list of users who live in the same state as they go to school.

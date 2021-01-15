@@ -12,7 +12,7 @@ Change thses values to generate a different story
 */
 
 const story = `
-**replace this with your story using a template string**
+**replace this wih your story using a template string**
 `
 
 console.log(story)

@@ -1,0 +1,110 @@
+.bcontainer
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #b5deff;
+    box-shadow: 7px 7px 7px 7px #888888;
+    padding: 20px 200px 20px;
+    margin-bottom: 40px;
+}
+
+.gcontainer
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #e9e5e5;
+    box-shadow: 7px 7px 7px 7px #888888;
+    padding: 20px 200px 20px;
+    margin-bottom: 40px;
+}
+
+.bcontainer > div {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    font-size: 20px;
+    color: rgb(87, 87, 87);
+}
+
+.gcontainer > div {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    font-size: 20px;
+    color: rgb(87, 87, 87);
+}
+
+img {
+    max-height: 300px
+}
+
+li {
+    padding-top: 7px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    position: sticky;
+    margin-bottom: 20px;
+    top: 0px;
+    left: 0px;
+    background-color: #c8d3f1;
+    border-bottom: 3px #0263be solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#navbar > div {
+    padding: 15px;
+    font-size: 25px;
+    color: rgb(87, 87, 87);
+}
+
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color:rgb(25, 45, 134);
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(87, 87, 87);
+}
+
+div > p {
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(87, 87, 87);
+
+}
+
+ a {
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+a:hover {
+    font-weight: bold;
+}
